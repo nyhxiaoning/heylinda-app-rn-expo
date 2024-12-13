@@ -1,3 +1,21 @@
+## 启动项目
+
+### 1.项目yarn安装，v14.18.0版本
+不要node太高，yarn安装
+
+### 2.本地调试报错，先试试web端是否正常
+访问：http://localhost:19006/Main/Home/HomeScreen
+
+### 3.清理expo缓存
+- 清理缓存
+  npx expo start --clear
+
+- 重新启动：
+  npx expo start --android
+
+### 4.启动之后web端启动
+这里w启动web，可以正常展示，这里其他的app还在测试，不稳定
+
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/88053790" alt="logo" height="150"/>
 </p>
